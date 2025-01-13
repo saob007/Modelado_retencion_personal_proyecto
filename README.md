@@ -10,14 +10,13 @@ Los directivos de una empresa industrial, dedicada al desarrollo de tecnología 
 El conjunto de datos aportados por la empresa industrial está comprendido por 14999 registros únicos e independientes y 10 características. Las características o variables incluyen información sobre el nivel de satisfacción comunicado por el trabajador, el nivel de desempeño calculado por el área al que pertenece, el número de proyectos en los que ha participado el trabajador, el promedio de horas mensuales trabajadas, la antigüedad del empleado, las promociones de cargo, el nivel salarial, el área o departamento al que pertenece, si ha sufrido accidentes laborales y si se el trabajador se encuentra activo o retirado de la empresa.
 El gráfico a continuación muestra  la distribución de cuantos empleados activos y retirados existen en el conjunto de datos.
 
-<img src="assets/img/img1.png" alt="Distribución de datos" 
-     style="display: block; margin: auto; max-width: 50%; height: auto;">
+<img src="assets/img/img1.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 50%; height: auto;">
 
 Como parte de la preparación para modelado de los datos, se eliminaron columnas innecesarias, se verificaron valores nulos y registros duplicados, se gestionaron valores atípicos y se formatearon en el tipo de datos adecuado.
 
 ## Modelado y Evaluación
 
-Se utilizó un modelo de bosque aleatorio compuesto por 100 árboles de decisión para determinar la importancia de las características sobre quién dejaría una propina generosa o no. El gráfico a continuación muestra que la duración del viaje, la distancia y el costo de la tarifa fueron los tres factores más importantes para determinar si un pasajero era generoso o no generoso. El modelo en general tuvo un rendimiento del 86% de precisión y 72% de exactitud.
+Se seleccionó un modelo XGBoost como mejor opción, compuesto por 500 árboles de decisión para determinar la importancia de las características sobre qué empleado desertaría de su cargo o no. El gráfico a continuación muestra que el tiempo en la empresa (antigüedad), el nivel de satisfacción comunicado (satisfaccion) y la cantidad de proyectos en los que ha participado (numero_proyectos) fueron los tres factores más importantes para determinar si un trabajador abandonaría la empresa. El modelo en general tuvo un rendimiento general del 98,8%, 96,5% de sensibilidad y una capacidad de discriminación del 98%, lo que quiere decir que fue capaz de discriminar y clasificar correctamente casi la totalidad de casos en el conjunto de datos de prueba, mientras identificó con alta efectividad a los empleados en riesgo de retirarse, con un 96,5% de certeza.
 
 Gráfico de barras horizontal que muestra la importancia de las características del modelo de bosque aleatorio.
 
