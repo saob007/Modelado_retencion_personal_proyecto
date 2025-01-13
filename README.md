@@ -16,16 +16,11 @@ Como parte de la preparación para modelado de los datos, se eliminaron columnas
 
 ## Modelado y Evaluación
 
-Se seleccionó un modelo XGBoost como mejor opción, compuesto por 500 árboles de decisión para determinar la importancia de las características sobre qué empleado desertaría de su cargo o no. El gráfico a continuación muestra que el tiempo en la empresa (antigüedad), el nivel de satisfacción comunicado (satisfaccion) y la cantidad de proyectos en los que ha participado (numero_proyectos) fueron los tres factores más importantes para determinar si un trabajador abandonaría la empresa. El modelo en general tuvo un rendimiento general del 98,8%, 96,5% de sensibilidad y una capacidad de discriminación del 98%, lo que quiere decir que fue capaz de discriminar y clasificar correctamente casi la totalidad de casos en el conjunto de datos de prueba, mientras identificó con alta efectividad a los empleados en riesgo de retirarse, con un 96,5% de certeza.
+Se seleccionó un modelo de potenciación de grádiente extremo (XGBoost) como mejor opción, compuesto por 500 árboles de decisión para determinar la importancia de las características sobre qué empleado desertaría de su cargo o no. El gráfico a continuación muestra que el tiempo en la empresa (antigüedad), el nivel de satisfacción comunicado (satisfaccion) y la cantidad de proyectos en los que ha participado (numero_proyectos) fueron los tres factores más importantes para determinar si un trabajador abandonaría la empresa. El modelo en general tuvo un rendimiento general del 98,8%, 96,5% de sensibilidad y una capacidad de discriminación del 98%, lo que quiere decir que fue capaz de discriminar y clasificar correctamente casi la totalidad de casos en el conjunto de datos de prueba, mientras identificó con alta efectividad a los empleados en riesgo de retirarse, con un 96,5% de certeza.
 
-Gráfico de barras horizontal que muestra la importancia de las características del modelo de bosque aleatorio.
+El gráfico de barras horizontal muestra la importancia de las características del modelo XGBoost.
 
-Conclusión
+<img src="assets/img/img2.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 50%; height: auto;">
+
+## Conclusión
 Este modelo puede beneficiar a los conductores de taxi al ayudarles a predecir si recibirán una propina generosa o no; sin embargo, sería útil ejecutar un modelo paramétrico para determinar cómo influirá cada variable en el monto real de la propina. En el futuro, agregar más información sobre el comportamiento de propinas pasado de los pasajeros también podría ser beneficioso para ayudar a los interesados a abordar su problema empresarial.
-
-
-
-
-
-
-
