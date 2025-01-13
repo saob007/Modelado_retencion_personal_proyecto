@@ -10,7 +10,7 @@ Los directivos de una empresa industrial, dedicada al desarrollo de tecnología 
 El conjunto de datos aportados por la empresa industrial está comprendido por 14999 registros únicos e independientes y 10 características. Las características o variables incluyen información sobre el nivel de satisfacción comunicado por el trabajador, el nivel de desempeño calculado por el área al que pertenece, el número de proyectos en los que ha participado el trabajador, el promedio de horas mensuales trabajadas, la antigüedad del empleado, las promociones de cargo, el nivel salarial, el área o departamento al que pertenece, si ha sufrido accidentes laborales y si se el trabajador se encuentra activo o retirado de la empresa.
 El gráfico a continuación muestra  la distribución de cuantos empleados activos y retirados existen en el conjunto de datos.
 
-<img src="assets/img/img1.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 50%; height: auto;">
+<img src="assets/img/img1.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 30%; height: auto;">
 
 Como parte de la preparación para modelado de los datos, se eliminaron columnas innecesarias, se verificaron valores nulos y registros duplicados, se gestionaron valores atípicos y se formatearon en el tipo de datos adecuado.
 
@@ -23,4 +23,6 @@ El gráfico de barras horizontal muestra la importancia de las características 
 <img src="assets/img/img2.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 50%; height: auto;">
 
 ## Conclusión
-Este modelo puede beneficiar a los conductores de taxi al ayudarles a predecir si recibirán una propina generosa o no; sin embargo, sería útil ejecutar un modelo paramétrico para determinar cómo influirá cada variable en el monto real de la propina. En el futuro, agregar más información sobre el comportamiento de propinas pasado de los pasajeros también podría ser beneficioso para ayudar a los interesados a abordar su problema empresarial.
+
+Este modelo puede ayudar a la empresa a mejorar la retención de talento humano, permitiendo realizar predecciones sobre qué empleados están en riesgo de abandonar la empresa. Convirtiendose en una base decisiva para la elaboración de un plan de acciones preventivas mientras se abordar las causas subyacentes de la deserción del talento. 
+En escenarios fúturos de investigación se recomienda recolectar y adicionar información sobre el tipo de retiro (voluntario o causal), la posición jerárquica del cargo del empleado, la edad, la cantidad de quejas o solicitudes, la modalidad de trabajo y la jornada laboral. Estos datos adicionales podrían generar un mayor entendimiento de la dinámica de deserción.
