@@ -31,5 +31,5 @@ El gráfico de barras horizontal muestra la importancia de las características 
 
 ## Conclusión
 
-Este modelo puede ayudar a la empresa a mejorar la retención de talento humano, permitiendo realizar predecciones sobre qué empleados están en riesgo de abandonar la empresa, convirtiendose en una base decisiva para la elaboración de un plan de acciones preventivas mientras se abordar las causas subyacentes de la deserción del talento. 
+Este modelo puede ayudar a la empresa a mejorar la retención de talento humano, permitiendo realizar predecciones sobre qué empleados están en riesgo de abandonar la empresa, convirtiendose en una base decisiva para la elaboración de un plan de acciones preventivas mientras se abordan las causas subyacentes de la deserción del talento. 
 En escenarios fúturos de investigación se recomienda recolectar y adicionar información sobre el tipo de retiro (voluntario o causal), la posición jerárquica del cargo del empleado, la edad, la cantidad de quejas o solicitudes, la modalidad de trabajo y la jornada laboral. Estos datos adicionales podrían generar un mayor entendimiento de la dinámica de deserción.
