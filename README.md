@@ -13,7 +13,9 @@ Los directivos de una empresa industrial, dedicada al desarrollo de tecnología 
 El conjunto de datos aportados por la empresa industrial está comprendido por 14999 registros únicos e independientes y 10 características. Las características o variables incluyen información sobre el nivel de satisfacción comunicado por el trabajador, el nivel de desempeño calculado por el área al que pertenece, el número de proyectos en los que ha participado el trabajador, el promedio de horas mensuales trabajadas, la antigüedad del empleado, las promociones de cargo, el nivel salarial, el área o departamento al que pertenece, si ha sufrido accidentes laborales y si se el trabajador se encuentra activo o retirado de la empresa.
 El gráfico a continuación muestra  la distribución de cuantos empleados activos y retirados existen en el conjunto de datos.
 
-<img src="assets/img/img1.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 30%; height: auto;">
+<p align="center">
+    <img src="assets/img/img1.png" alt="Distribución de empleados según su estado contractual" width="700">
+</p>
 
 Como parte de la preparación para modelado de los datos, se eliminaron columnas innecesarias, se verificaron valores nulos y registros duplicados, se gestionaron valores atípicos y se formatearon en el tipo de datos adecuado.
 
@@ -23,7 +25,9 @@ Se seleccionó un modelo de potenciación de grádiente extremo (XGBoost) como m
 
 El gráfico de barras horizontal muestra la importancia de las características del modelo XGBoost.
 
-<img src="assets/img/img2.png" alt="Distribución de datos" style="display: block; margin: auto; max-width: 50%; height: auto;">
+<p align="center">
+    <img src="assets/img/img2.png" alt="Importancia de las variables" width="700">
+</p>
 
 ## Conclusión
 
